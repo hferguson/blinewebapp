@@ -1,6 +1,5 @@
-
+# Ping Service
 This is a very generic REST service.  
-
 
 Notes on testing:
 For the test suite, we use jest and supertest (see section 10, lecture 198 of 
