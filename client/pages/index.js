@@ -1,7 +1,7 @@
 import Router from 'next/router';
 import useRequest from '../hooks/use-request';
 import {useState, useEffect } from 'react';
-
+import Header  from '../components/header';
 
 const Landing = () => {
     // Note to self: to destructure, use array instead of object, [] instead of {}
@@ -30,7 +30,7 @@ const Landing = () => {
 
     return (
         <div className="pageBody">
-            <h1>Baseline Web App (blinewebapp) Home page</h1>
+            <Header title="Baseline Web App (blinewebapp) Home page" />
             <div className="text-bg-light p-3">
                 If you are seeing this, the baseline app is working.
             </div>
